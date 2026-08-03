@@ -1,0 +1,37 @@
+{
+  "name": "deepseek-eyes",
+  "version": "0.1.0",
+  "description": "给 DeepSeek（Codex）装上眼睛：识图、区域精确识别、空间定位、文生图、图生图，基于硅基流动 API。",
+  "author": {
+    "name": "Altria"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vision",
+    "image",
+    "mcp",
+    "siliconflow",
+    "qwen",
+    "deepseek",
+    "ocr"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "DeepSeek Eyes",
+    "shortDescription": "识图、空间定位与生图的 MCP 工具集",
+    "longDescription": "给纯文本大模型（DeepSeek 等）装上眼睛的 MCP 插件：识别图片内容、按像素坐标裁剪精读区域、输出带归一化 bbox 的结构化空间描述（无修饰词），并支持 Qwen-Image 文生图与 Qwen-Image-Edit 图生图。全部通过硅基流动 API 调用，中文提示自动翻译为英文后再生图。",
+    "developerName": "Altria",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "分析这张图片里有什么内容",
+      "把这张图的红色圆形改成绿色",
+      "根据描述生成一张图片"
+    ],
+    "brandColor": "#7C3AED"
+  }
+}

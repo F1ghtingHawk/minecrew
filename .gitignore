@@ -1,0 +1,9 @@
+# 生成的图片（MCP 输出）
+generated/
+# 临时文件
+tmp/
+# Python 缓存
+__pycache__/
+*.pyc
+# 密钥（防止误传 SILICONFLOW_API_KEY）
+.env

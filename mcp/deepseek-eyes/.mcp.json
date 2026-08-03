@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "deepseek-eyes": {
+      "command": "D:\\Anaconda\\python.exe",
+      "args": [
+        "server.py"
+      ]
+    }
+  }
+}
